@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+|  | Pemrograman Berbasis Framework 2024 |
+|--|--|
+| NIM |  2341728027|
+| Nama |  Andi Fadhil Akbar Syahbana |
+| Kelas | TI - 3A |
 
-## Getting Started
+Praktikum 1
 
-First, run the development server:
+Dengan membuat heading dan section menggunakan props children sehingga menampilkan hasil berikut :
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![week4](image/week%207,%201.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+jika terjadi error sesuai code yang diberikan maka diperlukan penambahan 'use client' untuk memperbaiki nya :
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![week4](image/week%207,%202.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Praktikum 2
 
-## Learn More
+Profil pada components terdapat kendala
 
-To learn more about Next.js, take a look at the following resources:
+Praktikum 3
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Ketika halaman direfresh atau berpindah, tema tidak permanen karena state tema tidak disimpan. Untuk membuatnya permanen, dapat menggunakan localStorage untuk menyimpan state tema
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+selanjutnya tampilan halaman pada light mode dan dark mode 
 
-## Deploy on Vercel
+![week4](image/week%207,%203.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![week4](image/week%207,%204.png)
